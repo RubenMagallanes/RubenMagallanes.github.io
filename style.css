@@ -1,0 +1,86 @@
+
+
+body {
+	background: url('forest.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Lucida Console", Monaco, monospace; 
+
+	margin:40px auto;
+	max-width:650px;
+	line-height:1.6;
+	font-size:14px;
+
+	
+	color:#000;
+	opacity:1;
+	padding: 10px; 
+	text-decoration:none;
+}
+h1{
+	line-height:0.5;
+}
+h2{
+	font-size:16px;
+}
+
+h4{
+	font-size:14px;
+}
+
+body a:link, a:visited, a:hover, a:active {
+	text-decoration:none;
+	color:#000;
+}
+body a:hover {
+	text-decoration:underline;
+	color:#000;
+}
+#head{
+	color:#000;
+	
+	filter:Alpha(opacity=70);
+	opacity:1;
+
+	overflow:hidden;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+#links{
+	font-size:16px;  
+	font-weight:bold;
+}
+
+.descrip{ /* descriptions under course headers */
+	padding:10px;
+	text-align: :justify;
+
+}
+.image{ /* images in paragraphs */
+	float:right;
+	margin: 0px 0px 15px 15px;
+}
+
+.paragraph{ /*  main paragraph*/
+	text-align: justify;
+}
+
+
+.item{ /*feint bg for work items*/
+	background-color:rgba(200,200,200,0.6);
+	padding:10px;
+
+}
+.align_left {
+	float: left;
+}
+.align_right {
+	float: right;
+}
+.break{
+	height:10px
+}
+
