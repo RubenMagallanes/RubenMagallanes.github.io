@@ -55,6 +55,7 @@ body a:hover {
 }
 
 .descrip{ /* descriptions under course headers */
+	background-color:rgba(200,200,200,0.2); /* feint bg */
 	padding:10px;
 	text-align: :justify;
 
@@ -76,9 +77,11 @@ body a:hover {
 }
 .align_left {
 	float: left;
+	/*clear: right;*/
 }
 .align_right {
 	float: right;
+	/*clear: left;*/
 }
 .break{
 	height:10px
