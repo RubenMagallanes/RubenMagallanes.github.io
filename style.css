@@ -60,6 +60,18 @@ body a:hover {
 	text-align: :justify;
 
 }
+.brief{
+	padding: 10px;
+}
+.year{
+	margin:-10px;
+}
+.year-text{
+	background-color:rgba(200,200,200,0.2); /* feint bg */
+	padding: 5px;
+	text-align: :justify;
+}
+
 .image{ /* images in paragraphs */
 	float:right;
 	margin: 0px 0px 15px 15px;
@@ -86,4 +98,3 @@ body a:hover {
 .break{
 	height:10px
 }
-
